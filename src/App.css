@@ -44,8 +44,6 @@
 .app__formElements {
     border-radius: 50px;
     padding: 0;
-    animation: breath 3000ms ease;
-    animation-iteration-count: infinite;
 }
 
 @keyframes breath { 
@@ -96,6 +94,13 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 576px) {
+    .app__formElements {
+        animation: breath 3000ms ease;
+        animation-iteration-count: infinite;
+    }
 }
 
 @media (min-width: 576px) {
