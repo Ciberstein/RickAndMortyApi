@@ -153,9 +153,14 @@
     justify-content: space-around;
     gap: 1rem;   
     padding: 1rem;
-    background-color: #3e3e3e;
     color: #fff;
     border-radius: 5px;
+    /*background-color: #3e3e3e;*/
+    background-image: url(https://usagif.com/wp-content/uploads/gif/outerspace-78.gif.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
 }
 
 .article__locationStats > div > h4 {
