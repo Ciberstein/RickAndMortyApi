@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Questrial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
